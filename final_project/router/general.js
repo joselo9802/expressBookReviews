@@ -22,7 +22,7 @@ public_users.post("/register", (req, res) => {
             "DOB": DOB
         })
 
-        return res.status(201).send("H, " + firstName + ", your user's account has been created successfully");
+        return res.status(201).send("Hi, " + firstName + ", your user has been created successfully");
     }
 });
 
